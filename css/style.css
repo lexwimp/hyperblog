@@ -1,5 +1,16 @@
 body{
     text-align: center;
     font-family: "Arial";
-    color: deeppink;
+    color: #333;
+}
+
+.container{
+padding: 1em;
+border: #333 solid 1px;
+margin: 0 auto;
+text-align: left;
+max-width: 1080px;
+}
+.container h1{
+    font-size: 24px;
 }
