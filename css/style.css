@@ -11,6 +11,7 @@ padding: 10px;
 margin: 0 auto;
 text-align: left;
 max-width: 1080px;
+font-family: 'Arial';
 }
 .container h1{
     font-size: 22px;
@@ -29,4 +30,5 @@ max-width: 1080px;
 #tagline{
     font-size: 20;
     font-weight: 500;
+>>>>>>> cabecera
 }
