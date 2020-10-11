@@ -10,6 +10,7 @@ border: #333 solid 1px;
 margin: 0 auto;
 text-align: left;
 max-width: 1080px;
+font-family: 'Courier';
 }
 .container h1{
     font-size: 22px;
