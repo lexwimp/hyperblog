@@ -1,34 +1,53 @@
-body{
-    text-align: center;
-    font-family: "Arial";
-    color:#333;
+* {
     padding: 0px;
     margin: 0px;
 }
 
+body{
+    text-align: center;
+    font-family: "Arial";
+    color:#333;
+    background-color: #333;
+}
+
 .container{
-padding: 10px;
+padding: 20px;
 margin: 0 auto;
 text-align: left;
-max-width: 1080px;
+max-width: 1040px;
 font-family: 'Arial';
 }
 .container h1{
-    font-size: 22px;
+    font-size: 32px;
 }
 
 #cabecera{
-    background-color: #22a;
+    background-color: #273b47;
     color: white;
     font-size: 32px;
     font-weight: bold;
-    padding: 1em;
+    padding: 20px 0px;
     box-shadow: 0px 5px 30px 0px rgba(0,0,0, 0.75);
-
+    text-align: center;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 #tagline{
-    font-size: 20;
+    font-size: 0.6em;
     font-weight: 500;
->>>>>>> cabecera
+}
+
+#logo{
+    max-height: 40px;
+    margin: 10px;
+}
+
+#cabecera .container{
+    display: flex;
+    align-items: center;
+}
+
+body > .container{
+    background-color: white;
 }
